@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  NewRunViewController.h
 //  AppstaxRunner
 //
 //  Created by Leif-Arne Bakker on 26/09/14.
@@ -7,13 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface NewRunViewController : UIViewController
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
-
 @end
-

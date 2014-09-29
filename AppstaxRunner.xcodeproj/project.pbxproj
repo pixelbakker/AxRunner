@@ -10,12 +10,68 @@
 		F099C27D19D535A800EA37DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C27C19D535A800EA37DF /* main.m */; };
 		F099C28019D535A800EA37DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C27F19D535A800EA37DF /* AppDelegate.m */; };
 		F099C28319D535A800EA37DF /* AppstaxRunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F099C28119D535A800EA37DF /* AppstaxRunner.xcdatamodeld */; };
-		F099C28619D535A800EA37DF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C28519D535A800EA37DF /* MasterViewController.m */; };
 		F099C28919D535A800EA37DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C28819D535A800EA37DF /* DetailViewController.m */; };
 		F099C28C19D535A800EA37DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F099C28A19D535A800EA37DF /* Main.storyboard */; };
 		F099C28E19D535A800EA37DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F099C28D19D535A800EA37DF /* Images.xcassets */; };
 		F099C29119D535A800EA37DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F099C28F19D535A800EA37DF /* LaunchScreen.xib */; };
 		F099C29D19D535A800EA37DF /* AppstaxRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C29C19D535A800EA37DF /* AppstaxRunnerTests.m */; };
+		F099C2A819D537CA00EA37DF /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2A719D537CA00EA37DF /* Run.m */; };
+		F099C2AB19D537CB00EA37DF /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2AA19D537CB00EA37DF /* Location.m */; };
+		F099C2AD19D5383F00EA37DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2AC19D5383F00EA37DF /* MapKit.framework */; };
+		F099C2AF19D5385400EA37DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2AE19D5385400EA37DF /* CoreGraphics.framework */; };
+		F099C2B119D5385D00EA37DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2B019D5385D00EA37DF /* CoreData.framework */; };
+		F099C2B319D5387000EA37DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2B219D5387000EA37DF /* UIKit.framework */; };
+		F099C2B519D5388300EA37DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2B419D5388300EA37DF /* Foundation.framework */; };
+		F099C2B819D5429C00EA37DF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2B719D5429C00EA37DF /* HomeViewController.m */; };
+		F099C2BB19D5446900EA37DF /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2BA19D5446900EA37DF /* NewRunViewController.m */; };
+		F099C2BE19D5543D00EA37DF /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2BD19D5543D00EA37DF /* MathController.m */; };
+		F099C2C119D569FD00EA37DF /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F099C2C019D569FD00EA37DF /* MulticolorPolylineSegment.m */; };
+		F099C2C419D57E7600EA37DF /* AppStax.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F099C2C219D57E7600EA37DF /* AppStax.bundle */; };
+		F099C2C519D57E7600EA37DF /* AppStax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F099C2C319D57E7600EA37DF /* AppStax.framework */; };
+		F0DCD99719D939A500039200 /* ariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD96C19D939A500039200 /* ariel.jpg */; };
+		F0DCD99819D939A500039200 /* asteroid_belt.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD96D19D939A500039200 /* asteroid_belt.png */; };
+		F0DCD99919D939A500039200 /* atmosphere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD96E19D939A500039200 /* atmosphere.jpg */; };
+		F0DCD99A19D939A500039200 /* badges.txt in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD96F19D939A500039200 /* badges.txt */; };
+		F0DCD99B19D939A500039200 /* blue-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97019D939A500039200 /* blue-btn.png */; };
+		F0DCD99C19D939A500039200 /* callisto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97119D939A500039200 /* callisto.jpg */; };
+		F0DCD99D19D939A500039200 /* ceres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97219D939A500039200 /* ceres.jpg */; };
+		F0DCD99E19D939A500039200 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97319D939A500039200 /* Default-568h@2x.png */; };
+		F0DCD99F19D939A500039200 /* deimos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97419D939A500039200 /* deimos.jpg */; };
+		F0DCD9A019D939A500039200 /* dione.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97519D939A500039200 /* dione.jpg */; };
+		F0DCD9A119D939A500039200 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97619D939A500039200 /* earth.jpg */; };
+		F0DCD9A219D939A500039200 /* enceladus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97719D939A500039200 /* enceladus.jpg */; };
+		F0DCD9A319D939A500039200 /* europa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97819D939A500039200 /* europa.jpg */; };
+		F0DCD9A419D939A500039200 /* ganymede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97919D939A500039200 /* ganymede.jpg */; };
+		F0DCD9A519D939A500039200 /* green-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97A19D939A500039200 /* green-btn.png */; };
+		F0DCD9A619D939A500039200 /* iapetus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97B19D939A500039200 /* iapetus.jpg */; };
+		F0DCD9A719D939A500039200 /* Icon-App.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97C19D939A500039200 /* Icon-App.png */; };
+		F0DCD9A819D939A500039200 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97D19D939A500039200 /* Icon-Settings.png */; };
+		F0DCD9A919D939A500039200 /* Icon-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97E19D939A500039200 /* Icon-Spotlight.png */; };
+		F0DCD9AA19D939A500039200 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD97F19D939A500039200 /* info@2x.png */; };
+		F0DCD9AB19D939A500039200 /* interstellar_space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98019D939A500039200 /* interstellar_space.jpg */; };
+		F0DCD9AC19D939A500039200 /* io.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98119D939A500039200 /* io.jpg */; };
+		F0DCD9AD19D939A500039200 /* kuiper_belt.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98219D939A500039200 /* kuiper_belt.png */; };
+		F0DCD9AE19D939A500039200 /* magnetotail.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98319D939A500039200 /* magnetotail.png */; };
+		F0DCD9AF19D939A500039200 /* mapPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98419D939A500039200 /* mapPin@2x.png */; };
+		F0DCD9B019D939A500039200 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98519D939A500039200 /* mars.jpg */; };
+		F0DCD9B119D939A500039200 /* mimas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98619D939A500039200 /* mimas.jpg */; };
+		F0DCD9B219D939A500039200 /* miranda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98719D939A500039200 /* miranda.jpg */; };
+		F0DCD9B319D939A500039200 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98819D939A500039200 /* moon.jpg */; };
+		F0DCD9B419D939A500039200 /* oberon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98919D939A500039200 /* oberon.jpg */; };
+		F0DCD9B519D939A500039200 /* phobos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98A19D939A500039200 /* phobos.jpg */; };
+		F0DCD9B619D939A500039200 /* pluto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98B19D939A500039200 /* pluto.jpg */; };
+		F0DCD9B719D939A500039200 /* red-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98C19D939A500039200 /* red-btn.png */; };
+		F0DCD9B819D939A500039200 /* rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98D19D939A500039200 /* rhea.jpg */; };
+		F0DCD9B919D939A500039200 /* saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98E19D939A500039200 /* saturn.jpg */; };
+		F0DCD9BA19D939A500039200 /* spaceship-gold.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD98F19D939A500039200 /* spaceship-gold.png */; };
+		F0DCD9BB19D939A500039200 /* spaceship-silver.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99019D939A500039200 /* spaceship-silver.png */; };
+		F0DCD9BC19D939A500039200 /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99119D939A500039200 /* success.wav */; };
+		F0DCD9BD19D939A500039200 /* tethys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99219D939A500039200 /* tethys.jpg */; };
+		F0DCD9BE19D939A500039200 /* titan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99319D939A500039200 /* titan.jpg */; };
+		F0DCD9BF19D939A500039200 /* titania.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99419D939A500039200 /* titania.jpg */; };
+		F0DCD9C019D939A500039200 /* triton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99519D939A500039200 /* triton.jpg */; };
+		F0DCD9C119D939A500039200 /* umbriel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DCD99619D939A500039200 /* umbriel.jpg */; };
+		F0DCD9C419D939FD00039200 /* Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DCD9C319D939FD00039200 /* Badge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +91,6 @@
 		F099C27E19D535A800EA37DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F099C27F19D535A800EA37DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F099C28219D535A800EA37DF /* AppstaxRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppstaxRunner.xcdatamodel; sourceTree = "<group>"; };
-		F099C28419D535A800EA37DF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		F099C28519D535A800EA37DF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		F099C28719D535A800EA37DF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F099C28819D535A800EA37DF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F099C28B19D535A800EA37DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +99,70 @@
 		F099C29619D535A800EA37DF /* AppstaxRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppstaxRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F099C29B19D535A800EA37DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F099C29C19D535A800EA37DF /* AppstaxRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppstaxRunnerTests.m; sourceTree = "<group>"; };
+		F099C2A619D537CA00EA37DF /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		F099C2A719D537CA00EA37DF /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		F099C2A919D537CB00EA37DF /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F099C2AA19D537CB00EA37DF /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		F099C2AC19D5383F00EA37DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F099C2AE19D5385400EA37DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F099C2B019D5385D00EA37DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F099C2B219D5387000EA37DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F099C2B419D5388300EA37DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F099C2B619D5429C00EA37DF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		F099C2B719D5429C00EA37DF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		F099C2B919D5446900EA37DF /* NewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRunViewController.h; sourceTree = "<group>"; };
+		F099C2BA19D5446900EA37DF /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
+		F099C2BC19D5543C00EA37DF /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		F099C2BD19D5543D00EA37DF /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		F099C2BF19D569FD00EA37DF /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		F099C2C019D569FD00EA37DF /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
+		F099C2C219D57E7600EA37DF /* AppStax.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppStax.bundle; sourceTree = "<group>"; };
+		F099C2C319D57E7600EA37DF /* AppStax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppStax.framework; sourceTree = "<group>"; };
+		F0DCD96C19D939A500039200 /* ariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ariel.jpg; sourceTree = "<group>"; };
+		F0DCD96D19D939A500039200 /* asteroid_belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid_belt.png; sourceTree = "<group>"; };
+		F0DCD96E19D939A500039200 /* atmosphere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atmosphere.jpg; sourceTree = "<group>"; };
+		F0DCD96F19D939A500039200 /* badges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badges.txt; sourceTree = "<group>"; };
+		F0DCD97019D939A500039200 /* blue-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-btn.png"; sourceTree = "<group>"; };
+		F0DCD97119D939A500039200 /* callisto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = callisto.jpg; sourceTree = "<group>"; };
+		F0DCD97219D939A500039200 /* ceres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceres.jpg; sourceTree = "<group>"; };
+		F0DCD97319D939A500039200 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0DCD97419D939A500039200 /* deimos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deimos.jpg; sourceTree = "<group>"; };
+		F0DCD97519D939A500039200 /* dione.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dione.jpg; sourceTree = "<group>"; };
+		F0DCD97619D939A500039200 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		F0DCD97719D939A500039200 /* enceladus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enceladus.jpg; sourceTree = "<group>"; };
+		F0DCD97819D939A500039200 /* europa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = europa.jpg; sourceTree = "<group>"; };
+		F0DCD97919D939A500039200 /* ganymede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganymede.jpg; sourceTree = "<group>"; };
+		F0DCD97A19D939A500039200 /* green-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-btn.png"; sourceTree = "<group>"; };
+		F0DCD97B19D939A500039200 /* iapetus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iapetus.jpg; sourceTree = "<group>"; };
+		F0DCD97C19D939A500039200 /* Icon-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App.png"; sourceTree = "<group>"; };
+		F0DCD97D19D939A500039200 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
+		F0DCD97E19D939A500039200 /* Icon-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight.png"; sourceTree = "<group>"; };
+		F0DCD97F19D939A500039200 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		F0DCD98019D939A500039200 /* interstellar_space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interstellar_space.jpg; sourceTree = "<group>"; };
+		F0DCD98119D939A500039200 /* io.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = io.jpg; sourceTree = "<group>"; };
+		F0DCD98219D939A500039200 /* kuiper_belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuiper_belt.png; sourceTree = "<group>"; };
+		F0DCD98319D939A500039200 /* magnetotail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnetotail.png; sourceTree = "<group>"; };
+		F0DCD98419D939A500039200 /* mapPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapPin@2x.png"; sourceTree = "<group>"; };
+		F0DCD98519D939A500039200 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		F0DCD98619D939A500039200 /* mimas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mimas.jpg; sourceTree = "<group>"; };
+		F0DCD98719D939A500039200 /* miranda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miranda.jpg; sourceTree = "<group>"; };
+		F0DCD98819D939A500039200 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		F0DCD98919D939A500039200 /* oberon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oberon.jpg; sourceTree = "<group>"; };
+		F0DCD98A19D939A500039200 /* phobos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phobos.jpg; sourceTree = "<group>"; };
+		F0DCD98B19D939A500039200 /* pluto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pluto.jpg; sourceTree = "<group>"; };
+		F0DCD98C19D939A500039200 /* red-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-btn.png"; sourceTree = "<group>"; };
+		F0DCD98D19D939A500039200 /* rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rhea.jpg; sourceTree = "<group>"; };
+		F0DCD98E19D939A500039200 /* saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpg; sourceTree = "<group>"; };
+		F0DCD98F19D939A500039200 /* spaceship-gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spaceship-gold.png"; sourceTree = "<group>"; };
+		F0DCD99019D939A500039200 /* spaceship-silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spaceship-silver.png"; sourceTree = "<group>"; };
+		F0DCD99119D939A500039200 /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		F0DCD99219D939A500039200 /* tethys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tethys.jpg; sourceTree = "<group>"; };
+		F0DCD99319D939A500039200 /* titan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titan.jpg; sourceTree = "<group>"; };
+		F0DCD99419D939A500039200 /* titania.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titania.jpg; sourceTree = "<group>"; };
+		F0DCD99519D939A500039200 /* triton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = triton.jpg; sourceTree = "<group>"; };
+		F0DCD99619D939A500039200 /* umbriel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbriel.jpg; sourceTree = "<group>"; };
+		F0DCD9C219D939FD00039200 /* Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Badge.h; sourceTree = "<group>"; };
+		F0DCD9C319D939FD00039200 /* Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Badge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +170,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F099C2B519D5388300EA37DF /* Foundation.framework in Frameworks */,
+				F099C2B319D5387000EA37DF /* UIKit.framework in Frameworks */,
+				F099C2C519D57E7600EA37DF /* AppStax.framework in Frameworks */,
+				F099C2B119D5385D00EA37DF /* CoreData.framework in Frameworks */,
+				F099C2AF19D5385400EA37DF /* CoreGraphics.framework in Frameworks */,
+				F099C2AD19D5383F00EA37DF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +192,13 @@
 		F099C26E19D535A800EA37DF = {
 			isa = PBXGroup;
 			children = (
+				F099C2C219D57E7600EA37DF /* AppStax.bundle */,
+				F099C2C319D57E7600EA37DF /* AppStax.framework */,
+				F099C2B419D5388300EA37DF /* Foundation.framework */,
+				F099C2B219D5387000EA37DF /* UIKit.framework */,
+				F099C2B019D5385D00EA37DF /* CoreData.framework */,
+				F099C2AE19D5385400EA37DF /* CoreGraphics.framework */,
+				F099C2AC19D5383F00EA37DF /* MapKit.framework */,
 				F099C27919D535A800EA37DF /* AppstaxRunner */,
 				F099C29919D535A800EA37DF /* AppstaxRunnerTests */,
 				F099C27819D535A800EA37DF /* Products */,
@@ -86,16 +217,26 @@
 		F099C27919D535A800EA37DF /* AppstaxRunner */ = {
 			isa = PBXGroup;
 			children = (
+				F099C2B619D5429C00EA37DF /* HomeViewController.h */,
+				F099C2B719D5429C00EA37DF /* HomeViewController.m */,
 				F099C27E19D535A800EA37DF /* AppDelegate.h */,
 				F099C27F19D535A800EA37DF /* AppDelegate.m */,
-				F099C28419D535A800EA37DF /* MasterViewController.h */,
-				F099C28519D535A800EA37DF /* MasterViewController.m */,
+				F099C2B919D5446900EA37DF /* NewRunViewController.h */,
+				F099C2BA19D5446900EA37DF /* NewRunViewController.m */,
 				F099C28719D535A800EA37DF /* DetailViewController.h */,
 				F099C28819D535A800EA37DF /* DetailViewController.m */,
+				F099C2BF19D569FD00EA37DF /* MulticolorPolylineSegment.h */,
+				F099C2C019D569FD00EA37DF /* MulticolorPolylineSegment.m */,
 				F099C28A19D535A800EA37DF /* Main.storyboard */,
+				F099C2BC19D5543C00EA37DF /* MathController.h */,
+				F099C2BD19D5543D00EA37DF /* MathController.m */,
 				F099C28D19D535A800EA37DF /* Images.xcassets */,
 				F099C28F19D535A800EA37DF /* LaunchScreen.xib */,
 				F099C28119D535A800EA37DF /* AppstaxRunner.xcdatamodeld */,
+				F099C2A919D537CB00EA37DF /* Location.h */,
+				F099C2AA19D537CB00EA37DF /* Location.m */,
+				F099C2A619D537CA00EA37DF /* Run.h */,
+				F099C2A719D537CA00EA37DF /* Run.m */,
 				F099C27A19D535A800EA37DF /* Supporting Files */,
 			);
 			path = AppstaxRunner;
@@ -104,6 +245,7 @@
 		F099C27A19D535A800EA37DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0DCD96B19D939A500039200 /* axrunner_resources */,
 				F099C27B19D535A800EA37DF /* Info.plist */,
 				F099C27C19D535A800EA37DF /* main.m */,
 			);
@@ -125,6 +267,58 @@
 				F099C29B19D535A800EA37DF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0DCD96B19D939A500039200 /* axrunner_resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0DCD96C19D939A500039200 /* ariel.jpg */,
+				F0DCD96D19D939A500039200 /* asteroid_belt.png */,
+				F0DCD96E19D939A500039200 /* atmosphere.jpg */,
+				F0DCD96F19D939A500039200 /* badges.txt */,
+				F0DCD9C219D939FD00039200 /* Badge.h */,
+				F0DCD9C319D939FD00039200 /* Badge.m */,
+				F0DCD97019D939A500039200 /* blue-btn.png */,
+				F0DCD97119D939A500039200 /* callisto.jpg */,
+				F0DCD97219D939A500039200 /* ceres.jpg */,
+				F0DCD97319D939A500039200 /* Default-568h@2x.png */,
+				F0DCD97419D939A500039200 /* deimos.jpg */,
+				F0DCD97519D939A500039200 /* dione.jpg */,
+				F0DCD97619D939A500039200 /* earth.jpg */,
+				F0DCD97719D939A500039200 /* enceladus.jpg */,
+				F0DCD97819D939A500039200 /* europa.jpg */,
+				F0DCD97919D939A500039200 /* ganymede.jpg */,
+				F0DCD97A19D939A500039200 /* green-btn.png */,
+				F0DCD97B19D939A500039200 /* iapetus.jpg */,
+				F0DCD97C19D939A500039200 /* Icon-App.png */,
+				F0DCD97D19D939A500039200 /* Icon-Settings.png */,
+				F0DCD97E19D939A500039200 /* Icon-Spotlight.png */,
+				F0DCD97F19D939A500039200 /* info@2x.png */,
+				F0DCD98019D939A500039200 /* interstellar_space.jpg */,
+				F0DCD98119D939A500039200 /* io.jpg */,
+				F0DCD98219D939A500039200 /* kuiper_belt.png */,
+				F0DCD98319D939A500039200 /* magnetotail.png */,
+				F0DCD98419D939A500039200 /* mapPin@2x.png */,
+				F0DCD98519D939A500039200 /* mars.jpg */,
+				F0DCD98619D939A500039200 /* mimas.jpg */,
+				F0DCD98719D939A500039200 /* miranda.jpg */,
+				F0DCD98819D939A500039200 /* moon.jpg */,
+				F0DCD98919D939A500039200 /* oberon.jpg */,
+				F0DCD98A19D939A500039200 /* phobos.jpg */,
+				F0DCD98B19D939A500039200 /* pluto.jpg */,
+				F0DCD98C19D939A500039200 /* red-btn.png */,
+				F0DCD98D19D939A500039200 /* rhea.jpg */,
+				F0DCD98E19D939A500039200 /* saturn.jpg */,
+				F0DCD98F19D939A500039200 /* spaceship-gold.png */,
+				F0DCD99019D939A500039200 /* spaceship-silver.png */,
+				F0DCD99119D939A500039200 /* success.wav */,
+				F0DCD99219D939A500039200 /* tethys.jpg */,
+				F0DCD99319D939A500039200 /* titan.jpg */,
+				F0DCD99419D939A500039200 /* titania.jpg */,
+				F0DCD99519D939A500039200 /* triton.jpg */,
+				F0DCD99619D939A500039200 /* umbriel.jpg */,
+			);
+			path = axrunner_resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +370,11 @@
 				TargetAttributes = {
 					F099C27619D535A800EA37DF = {
 						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					F099C29519D535A800EA37DF = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -207,9 +406,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DCD9BB19D939A500039200 /* spaceship-silver.png in Resources */,
+				F0DCD9A219D939A500039200 /* enceladus.jpg in Resources */,
+				F0DCD9A619D939A500039200 /* iapetus.jpg in Resources */,
+				F0DCD9BF19D939A500039200 /* titania.jpg in Resources */,
+				F0DCD99719D939A500039200 /* ariel.jpg in Resources */,
+				F0DCD9AE19D939A500039200 /* magnetotail.png in Resources */,
+				F0DCD9A819D939A500039200 /* Icon-Settings.png in Resources */,
+				F0DCD9B519D939A500039200 /* phobos.jpg in Resources */,
+				F0DCD99819D939A500039200 /* asteroid_belt.png in Resources */,
+				F0DCD9B819D939A500039200 /* rhea.jpg in Resources */,
+				F0DCD99919D939A500039200 /* atmosphere.jpg in Resources */,
+				F0DCD9C119D939A500039200 /* umbriel.jpg in Resources */,
+				F0DCD9BC19D939A500039200 /* success.wav in Resources */,
+				F0DCD9B319D939A500039200 /* moon.jpg in Resources */,
+				F0DCD9BE19D939A500039200 /* titan.jpg in Resources */,
+				F0DCD9B419D939A500039200 /* oberon.jpg in Resources */,
+				F0DCD9A519D939A500039200 /* green-btn.png in Resources */,
+				F0DCD9A919D939A500039200 /* Icon-Spotlight.png in Resources */,
 				F099C28C19D535A800EA37DF /* Main.storyboard in Resources */,
+				F0DCD9AB19D939A500039200 /* interstellar_space.jpg in Resources */,
+				F0DCD99D19D939A500039200 /* ceres.jpg in Resources */,
+				F0DCD9A319D939A500039200 /* europa.jpg in Resources */,
+				F0DCD9A419D939A500039200 /* ganymede.jpg in Resources */,
+				F0DCD9AC19D939A500039200 /* io.jpg in Resources */,
+				F0DCD9AA19D939A500039200 /* info@2x.png in Resources */,
+				F0DCD9B019D939A500039200 /* mars.jpg in Resources */,
+				F0DCD9A019D939A500039200 /* dione.jpg in Resources */,
+				F0DCD99E19D939A500039200 /* Default-568h@2x.png in Resources */,
+				F0DCD9AF19D939A500039200 /* mapPin@2x.png in Resources */,
+				F0DCD9BA19D939A500039200 /* spaceship-gold.png in Resources */,
+				F0DCD9C019D939A500039200 /* triton.jpg in Resources */,
+				F0DCD9AD19D939A500039200 /* kuiper_belt.png in Resources */,
+				F0DCD9B919D939A500039200 /* saturn.jpg in Resources */,
 				F099C29119D535A800EA37DF /* LaunchScreen.xib in Resources */,
+				F0DCD9B719D939A500039200 /* red-btn.png in Resources */,
+				F0DCD9B219D939A500039200 /* miranda.jpg in Resources */,
+				F0DCD9BD19D939A500039200 /* tethys.jpg in Resources */,
+				F0DCD99F19D939A500039200 /* deimos.jpg in Resources */,
 				F099C28E19D535A800EA37DF /* Images.xcassets in Resources */,
+				F0DCD99C19D939A500039200 /* callisto.jpg in Resources */,
+				F0DCD9A119D939A500039200 /* earth.jpg in Resources */,
+				F0DCD99B19D939A500039200 /* blue-btn.png in Resources */,
+				F0DCD99A19D939A500039200 /* badges.txt in Resources */,
+				F0DCD9B619D939A500039200 /* pluto.jpg in Resources */,
+				F0DCD9B119D939A500039200 /* mimas.jpg in Resources */,
+				F0DCD9A719D939A500039200 /* Icon-App.png in Resources */,
+				F099C2C419D57E7600EA37DF /* AppStax.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +471,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F099C28919D535A800EA37DF /* DetailViewController.m in Sources */,
-				F099C28619D535A800EA37DF /* MasterViewController.m in Sources */,
+				F099C2AB19D537CB00EA37DF /* Location.m in Sources */,
+				F099C2BE19D5543D00EA37DF /* MathController.m in Sources */,
+				F099C2C119D569FD00EA37DF /* MulticolorPolylineSegment.m in Sources */,
 				F099C28319D535A800EA37DF /* AppstaxRunner.xcdatamodeld in Sources */,
+				F0DCD9C419D939FD00039200 /* Badge.m in Sources */,
+				F099C2A819D537CA00EA37DF /* Run.m in Sources */,
 				F099C28019D535A800EA37DF /* AppDelegate.m in Sources */,
+				F099C2B819D5429C00EA37DF /* HomeViewController.m in Sources */,
 				F099C27D19D535A800EA37DF /* main.m in Sources */,
+				F099C2BB19D5446900EA37DF /* NewRunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +602,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AppstaxRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +616,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AppstaxRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +679,7 @@
 				F099C2A219D535A800EA37DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F099C2A319D535A800EA37DF /* Build configuration list for PBXNativeTarget "AppstaxRunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +688,7 @@
 				F099C2A519D535A800EA37DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

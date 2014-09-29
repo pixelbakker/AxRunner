@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
-#import "MasterViewController.h"
+#import "HomeViewController.h"
+#import <AppStax/AppStax.h>
 
 @interface AppDelegate ()
 
@@ -20,8 +21,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
+    HomeViewController *controller = (HomeViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    [AppStax setAppKey:@"OGIzMWJhY2UtMzg2Mi00ZmI3LTdjOWQtMjFjZGM5YWY1YmU2"];
+
     return YES;
 }
 
